@@ -122,12 +122,12 @@ $mail = new PHPMailer();  // create a new object
 	//$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Port = 465; 
-	$mail->Username = 'moostafand@gmail.com';  
-	$mail->Password = 'bypassword';         
+	$mail->Username = 'xx@gmail.com';  
+	$mail->Password = '*****';         
 
 
 	//compose the email	
-	$mail->From = "moostafand@gmail.com";
+	$mail->From = "xx@gmail.com";
 	$mail->FromName = "E-Supermart Admin";
 	$mail->AddAddress($_POST['emailaddress']);
 	$mail->Subject = "Your Activation Link \r\n";
